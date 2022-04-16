@@ -1,0 +1,95 @@
+#logo{
+width:130px;
+border-radius: 50%;
+}
+
+#cart{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+}
+
+body{
+    background-image:url(images/Webpage\ Backgrounds.png);
+    background-position:center;
+    background-size:cover;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#d1{
+    width: 100%;
+    height: 18%;
+    display:flex;
+    align-items:center;
+}
+
+ul{
+    flex:1;
+    list-style:none;
+    display:flex;
+}
+
+li{
+    margin-left:25px;
+    margin-right:25px;
+    font-size:18px;
+    font-family: 'Merriweather', serif;
+
+}
+
+.btn{
+    background:linear-gradient(45deg,#e46432, #ff9933,white);
+    padding:10px 20px;
+    border-radius: 10px;
+    text-decoration:none;
+    color: black;
+    font-size: 17px;
+}
+
+#d2{
+    margin-left: 23%;
+    margin-top: 5%;
+}
+
+h2{
+padding-top: 30px;
+font-size: 60px;
+font-family: 'Lobster', cursive;
+color: #e46432;
+}
+
+p{
+    font-size: 25px;
+    color: #e46432;
+    margin-top: -20px;
+}
+
+#cloth{
+    position:absolute;
+    bottom:0;
+    right:30px;
+    height:70%;
+}
+
+#next, #back{
+    width:90px;
+    height: 30px;
+    margin-right: 15px; 
+}
+
+#d3{
+    padding-left: 23%;
+    padding-top: 2%;
+}
+
+#d4{
+    transform: rotate(-90deg);
+    position:absolute; 
+    left: -50px;
+}
+
+a{
+    text-decoration: none;
+    padding-right: 30px;
+}
